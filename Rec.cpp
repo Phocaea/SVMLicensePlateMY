@@ -320,7 +320,9 @@ int main()
 				}
 			}
 		}
-		//issue should be around here 
+		//Possible code that was causing the issue stated 
+		//Hoping if anyone solved it let me know
+		// Obtained Result is F9SEBB but the expected result should be JLP911 for current image
 		for (int i = 0; i < r_char.size(); i++)
 		{
 			Mat clone = Cropped(r_char.at(i));
