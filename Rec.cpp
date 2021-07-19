@@ -214,6 +214,7 @@ int main()
 	vector<string> text;
 	vector<Mat> charc;
 
+	//Edit File Path based on Your location
 	Mat image = imread("D:\\CarplateDS\\Dataset\\JLP911 26.jpg");
 	Mat gray;
 	cvtColor(image, gray, COLOR_BGR2GRAY);
@@ -340,6 +341,7 @@ int main()
 	waitKey();
 
 	string savesvm = "svm.txt";
+	//Edit Img Training Path based on Your location
 	string imgpath = "D:\\Alphabets";
 
 	bool train = trainSVM(savesvm, imgpath);
